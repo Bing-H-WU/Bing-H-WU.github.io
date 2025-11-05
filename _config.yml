@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "Head.shot.png"
   name             : "Bing Wu"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  pronouns         : "He/Him"  
+  bio              : "Hi there, this is my personal website."
+  location         : "Stony Brook, NY"
+  employer         : "SUNY Stony Brook"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "pinghanwu99@gmail.com" 
 
   # Academic websites
   academia         : # URL
