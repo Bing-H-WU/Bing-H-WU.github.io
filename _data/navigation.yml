@@ -9,16 +9,16 @@
 
 main:
   - title: "Projects"
-    url: /publications/
+    url: /projects/
 
   - title: "Publications"
-    url: /talks/    
+    url: /publications/    
 
   - title: "CV"
-    url: /teaching/    
+    url: /others/    
     
-  #- title: "Others"
-  # url: /portfolio/
+  - title: "Others"
+    url: /others/
         
   #- title: "Blog Posts"
   # url: /year-archive/
