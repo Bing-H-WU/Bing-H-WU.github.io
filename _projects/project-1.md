@@ -18,7 +18,7 @@ You can add detailed information about your project here. Include:
 
 You can add images in the excerpt (shown in the projects list) or in the body content using markdown:
 
-![Project Image](/images/500x300.png)
+![Project Image](/images/Project1.png)
 
 Or using HTML for more control:
 
