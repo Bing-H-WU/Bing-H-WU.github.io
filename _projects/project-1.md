@@ -1,6 +1,6 @@
 ---
-title: "Project Example 1"
-excerpt: "This is an example project. You can add images to explain your project.<br/><img src='/images/500x300.png'>"
+title: "High Performance Thin-Film Composite (TFC) membrane"
+excerpt: ""
 collection: projects
 ---
 
@@ -18,7 +18,7 @@ You can add detailed information about your project here. Include:
 
 You can add images in the excerpt (shown in the projects list) or in the body content using markdown:
 
-![Project Image](/images/500x300.png)
+![Project Image](/images/Project1.png)
 
 Or using HTML for more control:
 
