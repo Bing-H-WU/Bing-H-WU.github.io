@@ -1,5 +1,5 @@
 ---
-title: "Project Example 1"
+title: "High Performance Thin-Film Composite (TFC) membrane"
 excerpt: "This is an example project. You can add images to explain your project.<br/><img src='/images/500x300.png'>"
 collection: projects
 ---
