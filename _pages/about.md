@@ -15,3 +15,5 @@ Outside of my research, I enjoy fishing and running. I'm also into basketball an
 
 Recent News
 ======
+- **April 2025**: Presented my PhD research titled "Enhancing Efficiency of Electrochemical Carbon Capture Using Pulsed Chronopotentiometry with Hydrophilic Graphite Electrode" at the Electrochemical Society Conference.
+- **Jan 2022**: Presented my undergraduate research titled "Effect of Substrate and Amine Monomer on the Performance of Thin-Film Composite Membranes" at the Polymer Society of Taiwan Conference.
