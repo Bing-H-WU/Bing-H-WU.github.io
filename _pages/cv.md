@@ -13,56 +13,63 @@ redirect_from:
 
 ---
 
+## Specialization
+Separation Process, Electrochemistry, Polymer Science, Instrumental Analysis
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Material Science and Chemical Engineering**, Stony Brook University, Sept. 2023 - Dec. 2027 (Anticipated)
+  * Stony Brook, New York
+* **B.S. in Chemical Engineering**, Chung Yuan Christian University, Sept. 2018 - June 2022
+  * Taoyuan City, Taiwan
 
-Work experience
+Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Graduate Researcher**, Electrochemical Decarbonization Engineering Lab, Jan. 2024 - Present
+  * Stony Brook, New York
+  * Advisor: Prof. Hyowon Seo
+  * Electrochemical Carbon Capture: Reduced cell voltage by **30.8%** in an electrochemical carbon capture system through current optimization, improving stability and energy efficiency.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Undergraduate Researcher**, R&D Center for Membrane Technology, Aug. 2020 - June 2022
+  * Taoyuan City, Taiwan
+  * Membrane Filtration Technology: Fabricated thin-film composite membranes exhibiting **2-10x** higher water flux than conventional nanofiltration membranes while maintaining **99%** dye/salt selectivity.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+Projects
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Electrolyte Design for Stable Electrochemical Carbon Capture**, Oct. 2025 - Present
+  * Tuning Supporting Electrolyte and Additives: Optimizing supporting electrolytes and additives to improve solubility and control molecular interactions, minimizing side reactions. Expecting to extend to the life span **twice**.
+  * Multiple Mediators System: Exploring multi-mediator formulations to introduce controlled competing pathways and suppress undesired side reactions.
+
+* **Joint Research with Hyundai/KIA on Pulsed Electrolysis**, May 2025 - Dec. 2025
+  * Current Strategy for redox mediator: Applied pulsed and pulse-reverse current strategies to adjust electrode-electrolyte interface lowering cell voltage and energy consumption in Neutral Red-mediated electrochemical CO₂ capture.
+  * Dual Diffusion-Layer Modeling: Developed a coupled diffusion-kinetic model to describe voltage stabilization and mass transport behavior under pulsed operation.
+
+* **Membrane Engineering for Water Treatment Applications**, Aug. 2020 - June 2022
+  * Engineering Supports and Monomers for Polyamide TFC Membranes: Fabricated nanofiltration membranes via interfacial polymerization and characterized structure-performance relationships using FTIR, SEM, AFM, UV-vis, and contact angle analysis to improve purification efficiency and durability.
+  * Chlorine-Tolerant Nanofiltration Membranes for Dye Desalination: Conducted dye and salt separation tests to evaluate the enhanced stability and selectivity of modified thin-film composite membranes.
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* **Impact of Substrate and Monomer Structure on TFC Nanofiltration Membranes**
+  * P.H. Wu, M. R. Gallardo, M. B. M. Y. Ang, J. C. Millare, S.H. Huang, H.A. Tsai, and K.R. Lee, *J. Polym. Res.*, **29**, 270 (2022).
+
+* **Chlorine-Tolerant Nanofiltration Membranes via Cycloalkane-Based Interfacial Polymerization**
+  * M. B. M. Y. Ang, Y.L. Wu, M.Y. Chu, P.H. Wu, Y.H. Chiao, J. C. Millare, S.H. Huang, H.A. Tsai, and K.R. Lee, *Membranes*, **12**(3), 333 (2022).
+
+* **Current Strategies for Energy-Efficient Electrochemical CO₂ Capture**
+  * P.H. Wu, T. A. Hatton, and H. Seo, *Unpublished manuscript*.
+
+Presentations
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+* **Improving Electrochemical Carbon Capture with Pulsed Methods**
+  * The Electrochemical Society (ECS), April 2025, Montreal, Canada
+
+* **Substrate and Monomer Effects on TFC Membrane Performance**
+  * Polymer Society of Taiwan, Jan. 2022, Taichung City, Taiwan
+
+Skills Summary
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* **Programming & Data Analysis:** Python (NumPy, Pandas, SciPy, Matplotlib), Matlab
+* **Experimental Techniques:** Chronopotentiometry, Cyclic Voltammetry, Echem cell design, UV-Vis, FTIR, XPS, SEM, AFM, GC, HPLC
+* **Software & Tools:** Origin, Chemdraw, AutoCAD, LaTeX, Overleaf
+* **Research Focus:** Electrochemical carbon capture, redox mediator, Flow battery, Membrane separation, Membrane modification
