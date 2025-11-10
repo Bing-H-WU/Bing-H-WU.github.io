@@ -16,4 +16,6 @@ Outside of my research, I enjoy fishing and running. I'm also into basketball an
 Recent News
 ======
 - **April 2025**: Presented my PhD research titled "Enhancing Efficiency of Electrochemical Carbon Capture Using Pulsed Chronopotentiometry with Hydrophilic Graphite Electrode" at the Electrochemical Society Conference.
+- **July 2022**: My project "Assessing the impact of membrane support and different amine monomer structures on the efficacy of thin-film composite nanofiltration membrane for dye/salt separation" published in Journal of Polymer Research (First author).
+- **March 2022**: My project "Nanofiltration Membranes Formed through Interfacial Polymerization Involving Cycloalkane Amine Monomer and Trimesoyl Chloride Showing Some Tolerance to Chlorine during Dye Desalination" published in Membranes.
 - **Jan 2022**: Presented my undergraduate research titled "Effect of Substrate and Amine Monomer on the Performance of Thin-Film Composite Membranes" at the Polymer Society of Taiwan Conference.
