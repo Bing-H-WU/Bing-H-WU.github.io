@@ -11,11 +11,8 @@ main:
   - title: "Projects"
     url: /projects/
 
-  - title: "Publications"
-    url: /publications/    
-
   - title: "CV"
-    url: /others/    
+    url: /cv/    
     
   - title: "Others"
     url: /others/
