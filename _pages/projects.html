@@ -7,8 +7,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.projects %}
-  {% include archive-single.html %}
-{% endfor %}
+{% if site.projects.size > 0 %}
+  {% for post in site.projects %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+  <p>Projects will be displayed here.</p>
+{% endif %}
 
 
