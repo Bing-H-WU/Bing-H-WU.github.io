@@ -1,6 +1,6 @@
 ---
 title: "Project Example 2"
-excerpt: "This is your second project. You can add images to explain your project.<br/><img src='/images/500x300.png'>"
+excerpt: "This study focuses on developing advanced nanofiltration membranes that can efficiently separate dyes and salts from industrial wastewater. By experimenting with different amine building blocks—each with unique molecular shapes—the team created membranes with improved performance and chlorine resistance. These findings contribute to more durable and sustainable water treatment technologies, helping industries recycle both water and valuable dyes while reducing environmental impact.<br/><img src='/images/PJ2.png'>"
 collection: projects
 ---
 
