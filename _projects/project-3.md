@@ -1,6 +1,6 @@
 ---
 title: "Project Example 3"
-excerpt: "This is your third project. You can add images to explain your project.<br/><img src='/images/500x300.png'>"
+excerpt: "This is your third project. You can add images to explain your project.<br/><img src='/images/ECC.png'>"
 collection: projects
 ---
 
