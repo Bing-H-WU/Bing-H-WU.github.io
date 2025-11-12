@@ -1,5 +1,5 @@
 ---
-title: "Project Example 3"
+title: "Electrochemical Carbon Capture"
 excerpt: "This is your third project. You can add images to explain your project.<br/><img src='/images/ECC.png'>"
 collection: projects
 ---
