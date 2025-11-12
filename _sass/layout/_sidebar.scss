@@ -96,17 +96,17 @@
   img {
     max-width: 175px;
     border-radius: 0 !important;
-    border: 2px solid var(--global-border-color) !important;
-    padding: 3px;
+    border: none !important;
+    padding: 0;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 0;
     }
   }
   
   img.author__avatar {
     border-radius: 0 !important;
-    border: 2px solid var(--global-border-color) !important;
+    border: none !important;
   }
 }
 
