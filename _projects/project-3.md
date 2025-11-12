@@ -1,7 +1,10 @@
 ---
 title: "Electrochemical Carbon Capture"
-excerpt: "This is your third project. You can add images to explain your project.<br/><img src='/images/ECC.png'>"
+excerpt: "Developing electricity-driven carbon capture technologies to remove CO₂ from challenging sources such as vehicles, aircraft, and small industrial emitters. Working on optimizing system performance and electrolyte design to improve energy efficiency and scalability.<br/><img src='/images/ECC.png'>"
 collection: projects
+date_range: "Jan 2024 - Present"
+header:
+  teaser: ECC.png
 ---
 
 This is your third project page. You can describe your project here and include images to help explain it.

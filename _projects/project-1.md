@@ -2,6 +2,9 @@
 title: "High Performance Thin-Film Composite (TFC) membrane"
 excerpt: "This project explores how different materials and chemical designs affect the performance of thin-film composite membranes used to filter dyes and salts from wastewater. By tuning the supporting layer and the building blocks of the membrane, we created a design that achieved higher water flow and better separation efficiency. The results help advance more sustainable and cost-effective water purification technologies.<br/><img src='/images/Project1.png'>"
 collection: projects
+date_range: "Aug 2020 - June 2022"
+header:
+  teaser: Project1.png
 ---
 
 This is an example project page. You can describe your project here and include images to help explain it.

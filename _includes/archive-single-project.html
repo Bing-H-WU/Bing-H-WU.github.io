@@ -1,0 +1,89 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="list__item">
+  <article class="archive__item project__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="project__content-wrapper">
+      {% if post.header.teaser %}
+        <div class="project__image">
+          <img src="{{ post.header.teaser | prepend: '/images/' | prepend: base_path }}" alt="{{ title }}">
+        </div>
+      {% elsif post.excerpt contains '<img' %}
+        <div class="project__image">
+          {% assign excerpt_parts = post.excerpt | split: '<img' %}
+          {% if excerpt_parts.size > 1 %}
+            {% assign img_part = excerpt_parts[1] | split: '>' | first %}
+            {% if img_part contains "src='" %}
+              {% assign img_src = img_part | split: "src='" | last | split: "'" | first %}
+            {% elsif img_part contains 'src="' %}
+              {% assign img_src = img_part | split: 'src="' | last | split: '"' | first %}
+            {% endif %}
+            {% if img_src %}
+              <img src="{{ img_src | prepend: base_path }}" alt="{{ title }}">
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      <div class="project__text">
+        <h2 class="archive__item-title project__title" itemprop="headline">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+        
+        {% if post.date_range %}
+          <p class="project__date">{{ post.date_range }}</p>
+        {% elsif post.date %}
+          <p class="project__date">{{ post.date | date: "%b %Y" }}{% if post.date_end %} - {{ post.date_end | date: "%b %Y" }}{% endif %}</p>
+        {% endif %}
+        
+        {% if post.excerpt %}
+          <div class="archive__item-excerpt project__excerpt" itemprop="description">
+            {% assign clean_excerpt = post.excerpt | markdownify %}
+            {% if clean_excerpt contains '<img' %}
+              {% assign excerpt_parts = clean_excerpt | split: '<img' %}
+              {% assign before_img = excerpt_parts[0] %}
+              {% if excerpt_parts.size > 1 %}
+                {% assign after_img = excerpt_parts[1] | split: '>' | last %}
+                {{ before_img }}{{ after_img }}
+              {% else %}
+                {{ clean_excerpt }}
+              {% endif %}
+            {% else %}
+              {{ clean_excerpt }}
+            {% endif %}
+          </div>
+        {% endif %}
+        
+        {% if post.codeurl or post.videourl or post.paperurl %}
+          <div class="project__links">
+            {% if post.codeurl %}
+              <a href="{{ post.codeurl }}" class="btn btn--inverse btn--small" target="_blank">Code</a>
+            {% endif %}
+            {% if post.videourl %}
+              <a href="{{ post.videourl }}" class="btn btn--inverse btn--small" target="_blank">Video</a>
+            {% endif %}
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" class="btn btn--inverse btn--small" target="_blank">Paper</a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+</div>
+
