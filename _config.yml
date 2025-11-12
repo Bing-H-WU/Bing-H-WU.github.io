@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Head.shot.png"
+  avatar           : "headshot.web.jpg"
   name             : "Bing Wu"
   #pronouns         : "He/Him"  
   bio              : "Electrochemistry, Polymer Science, Separation Process"
