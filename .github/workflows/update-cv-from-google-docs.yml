@@ -1,0 +1,52 @@
+name: Update CV from Google Docs
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC (adjust timezone as needed)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Download CV from Google Docs
+        run: |
+          GOOGLE_DOCS_ID="${{ secrets.GOOGLE_DOCS_CV_ID }}"
+          
+          if [ -z "$GOOGLE_DOCS_ID" ]; then
+            echo "Error: Google Docs ID not configured"
+            echo "Please set GOOGLE_DOCS_CV_ID secret"
+            exit 1
+          fi
+          
+          # Download the PDF from Google Docs (published link)
+          echo "Downloading CV from Google Docs: $GOOGLE_DOCS_ID"
+          curl -L -f "https://docs.google.com/document/d/$GOOGLE_DOCS_ID/export?format=pdf" \
+            -o files/cv.pdf || {
+            echo "Error: Failed to download from Google Docs"
+            echo "Make sure your Google Doc is published or shared publicly"
+            exit 1
+          }
+          
+          echo "CV PDF updated successfully"
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "pinghanwu99@gmail.com"
+          git config --local user.name "Bing Wu"
+          git add files/cv.pdf
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update CV from Google Docs [skip ci]"
+            git push origin HEAD:master
+          fi
