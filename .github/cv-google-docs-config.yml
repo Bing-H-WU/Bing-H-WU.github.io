@@ -1,0 +1,9 @@
+# Google Docs CV Configuration
+# 
+# Your Google Docs Document ID:
+google_docs_cv_id: "1Qyy0QVUUeeclv68EEQlMzY81LZ-I7WehCkhIufQr8w8"
+
+# Note: You still need to add this as a GitHub Secret:
+# 1. Go to GitHub repo → Settings → Secrets and variables → Actions
+# 2. Add secret: GOOGLE_DOCS_CV_ID = 1Qyy0QVUUeeclv68EEQlMzY81LZ-I7WehCkhIufQr8w8
+# 3. Make sure your Google Doc is published (File → Share → Publish to web)
