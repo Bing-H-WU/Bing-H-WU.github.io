@@ -12,10 +12,7 @@ main:
     url: /projects/
 
   - title: "CV"
-    url: /cv/    
-    
-  - title: "Others"
-    url: /others/
+    url: /cv/
         
   #- title: "Blog Posts"
   # url: /year-archive/
