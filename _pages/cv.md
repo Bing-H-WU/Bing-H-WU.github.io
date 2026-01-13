@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <a href="{{ base_path }}/files/PH_WU25.pdf" class="btn btn--primary" target="_blank" style="margin-right: 1rem;">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary" target="_blank" style="margin-right: 1rem;">
     <i class="fas fa-download" aria-hidden="true"></i> Download PDF
   </a>
   <span style="color: #666; font-size: 0.9em;">
@@ -20,13 +20,13 @@ redirect_from:
 
 <div style="margin: 2rem 0; border: 1px solid #ddd; border-radius: 4px; overflow: hidden;">
   <iframe 
-    src="{{ base_path }}/files/PH_WU25.pdf#view=FitH" 
+    src="{{ base_path }}/files/cv.pdf#view=FitH" 
     width="100%" 
     height="800px" 
     style="border: none; display: block;"
     title="CV PDF Viewer">
     <p>Your browser does not support PDFs. 
-      <a href="{{ base_path }}/files/PH_WU25.pdf" target="_blank">Download the PDF</a> instead.
+      <a href="{{ base_path }}/files/cv.pdf" target="_blank">Download the PDF</a> instead.
     </p>
   </iframe>
 </div>
