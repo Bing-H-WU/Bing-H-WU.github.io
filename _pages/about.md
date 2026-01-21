@@ -17,10 +17,6 @@ My bachelor’s research focused on fabricating high-performance membranes for d
 
 TFC membranes consist of a porous substrate and an ultrathin active layer. The substrate provides mechanical strength and high permeability, while selectivity is governed by a nanometer-scale active layer formed via interfacial polymerization. The thin film was characterized using SEM and AFM to assess morphology and thickness, ATR-FTIR and XPS to analyze chemical composition, and contact angle measurements to evaluate surface wettability. These characteristics were directly correlated with membrane permeability, selectivity, and fouling resistance, enabling precise optimization of separation performance.
 
-In addition, I have extensive experience in membrane separation processes, including designing and fabricating composite membranes with high selectivity and low resistance to enhance overall separation efficiency.
-
-Outside of my research, I enjoy fishing and running. I'm also into basketball and always up for a game!
-
 Recent News
 ======
 - **April 2025**: Presented my PhD research titled "Enhancing Efficiency of Electrochemical Carbon Capture Using Pulsed Chronopotentiometry with Hydrophilic Graphite Electrode" at the Electrochemical Society Conference.
