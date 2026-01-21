@@ -13,6 +13,8 @@ My doctoral research focuses on using electrochemical redox-active materials to 
 
 The system is based on a membrane electrode assembly (MEA) and uses aqueous electrolytes as an eco-friendly, non-flammable medium. The limited electrochemical stability of water, however, leads to side reactions such as hydrogen and oxygen evolution during high-rate or long-term operation. My research addresses these challenges by optimizing reaction kinetics, transport processes, and molecular interactions. These strategies are applicable to water electrolyzers, aqueous batteries, and flow batteries.
 
+My bachelor’s research focused on fabricating high-performance membranes for dye/salt separation. By systematically correlating membrane structural parameters, chemical properties, and separation performance, I optimized thin-film composite (TFC) membranes to achieve stable operation with high selectivity, high water flux, and enhanced anti-fouling behavior.
+
 In addition, I have extensive experience in membrane separation processes, including designing and fabricating composite membranes with high selectivity and low resistance to enhance overall separation efficiency.
 
 Outside of my research, I enjoy fishing and running. I'm also into basketball and always up for a game!
