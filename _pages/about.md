@@ -11,6 +11,8 @@ I’m a Ph.D. student in Chemical Engineering at Stony Brook University, working
 
 My doctoral research focuses on using electrochemical redox-active materials to operate carbon capture processes. By controlling electron flow into and out of the system, redox mediators undergo reversible reduction and oxidation, regulating proton and hydroxide ion concentrations in the electrolyte. This electrochemically induced pH swing enables carbon dioxide from the gas phase to be converted into dissolved inorganic carbon and stably retained in solution, or reversibly released back to the gas phase.
 
+The system is based on a membrane electrode assembly (MEA) and uses aqueous electrolytes as an eco-friendly, non-flammable medium. The limited electrochemical stability of water, however, leads to side reactions such as hydrogen and oxygen evolution during high-rate or long-term operation. My research addresses these challenges by optimizing reaction kinetics, transport processes, and molecular interactions. These strategies are applicable to water electrolyzers, aqueous batteries, and flow batteries.
+
 In addition, I have extensive experience in membrane separation processes, including designing and fabricating composite membranes with high selectivity and low resistance to enhance overall separation efficiency.
 
 Outside of my research, I enjoy fishing and running. I'm also into basketball and always up for a game!
