@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a Ph.D. student in Chemical Engineering at Stony Brook University, working with <a href="https://seoresearch.github.io/">Prof. Hyowon Seo</a> in the Electrochemical Decarbonization Engineering Lab.
+I’m a Ph.D. student in Chemical Engineering at Stony Brook University, working with <a href="https://seoresearch.github.io/">Prof. Hyowon Seo</a> in the Electrochemical Decarbonization Engineering Lab. I obtained my bachelor’s degree from Chung Yuan Christian University in Taiwan, where I conducted undergraduate research at the R&D Center for Membrane Technology working with Prof. Kueir-Rarn Lee.
 
 My doctoral research focuses on using electrochemical redox-active materials to operate carbon capture processes. By controlling electron flow into and out of the system, redox mediators undergo reversible reduction and oxidation, regulating proton and hydroxide ion concentrations in the electrolyte. This electrochemically induced pH swing enables carbon dioxide from the gas phase to be converted into dissolved inorganic carbon and stably retained in solution, or reversibly released back to the gas phase.
 
