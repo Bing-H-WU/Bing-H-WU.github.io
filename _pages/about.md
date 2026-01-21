@@ -9,7 +9,7 @@ redirect_from:
 
 I’m a Ph.D. student in Chemical Engineering at Stony Brook University, working with [Prof. Hyowon Seo](https://seoresearch.github.io/) in the Electrochemical Decarbonization Engineering Lab.
 
-My research focuses on electrochemical redox-active materials for operating carbon capture processes. These redox materials function by precisely manipulating electron flow into and out of the system, driving the reduction and oxidation of molecular species. Through this controlled electron transfer, the proton content of the electrolyte is regulated, enabling a reversible pH swing in an aqueous environment. Alkaline aqueous systems are widely employed for carbon dioxide capture due to their high selectivity and rapid reaction kinetics with CO₂. Overall, this electrochemical approach represents a state-of-the-art strategy for achieving precise, molecular-level control over chemical reactions for efficient carbon capture.
+My doctoral research focuses on using electrochemical redox-active materials to operate carbon capture processes. By controlling electron flow into and out of the system, redox mediators undergo reversible reduction and oxidation, regulating proton and hydroxide ion concentrations in the electrolyte. This electrochemically induced pH swing enables carbon dioxide from the gas phase to be converted into dissolved inorganic carbon and stably retained in solution, or reversibly released back to the gas phase.
 
 In addition, I have extensive experience in membrane separation processes, including designing and fabricating composite membranes with high selectivity and low resistance to enhance overall separation efficiency.
 
