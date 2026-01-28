@@ -1,13 +1,13 @@
 ---
-title: "A Systematic Study of Pulsed Chronopotentiometry for Electrochemical Carbon Capture with Molecular Redox Mediators"
-excerpt: "This projest aims to develop electrochemical carbon capture systems based on molecular redox mediators, focusing on the fundamental electrochemical reactions between the mediator and the surrounding electrolyte environment. My work integrates parameter optimization, pulse-current operation, and electrolyte formulation to enhance reaction kinetics, reduce energy consumption, and improve long-term system stability. By systematically tuning both the operating conditions and the chemical properties of the electrolyte. <br/><img src='/images/ECC.png'>"
+title: "Iron Complex Mediator Carbon Capture"
+excerpt: "This project explores iron complex redox mediators for electrochemical carbon capture, focusing on mediator stability, reaction pathways, and electrolyte compatibility. The goal is to improve capture efficiency and reversibility while minimizing energy consumption and side reactions.<br/><img src='/images/ECC.png'>"
 collection: projects
-date_range: "Jan 2024 - Dec 2025"
+date_range: "Jan 2024 - Present"
 header:
   teaser: ECC.png
 ---
 
-This is your third project page. You can describe your project here and include images to help explain it.
+This project focuses on iron complex mediators for electrochemical carbon capture. You can describe the objectives, methods, and results in more detail here.
 
 ## Project Overview
 
