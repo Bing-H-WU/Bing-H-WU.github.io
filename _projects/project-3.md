@@ -2,6 +2,8 @@
 title: "Iron Complex Mediator Carbon Capture"
 excerpt: "This project explores iron complex redox mediators for electrochemical carbon capture, focusing on mediator stability, reaction pathways, and electrolyte compatibility. The goal is to improve capture efficiency and reversibility while minimizing energy consumption and side reactions.<br/><img src='/images/ECC.png'>"
 collection: projects
+published: true
+date: 2024-01-01
 date_range: "Jan 2024 - Present"
 header:
   teaser: ECC.png
